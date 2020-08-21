@@ -1,0 +1,14 @@
+<main class="menu-container">
+  <div class="container menu">
+    <div
+      (click)="showMessage(option)"
+      *ngFor="let option of options"
+      class="menu-card"
+    >
+      <div class="menu-card-image">
+        <img src="./assets/images/room.svg" alt="room_svg" />
+      </div>
+      <p class="menu-card-content">{{ option.text }}</p>
+    </div>
+  </div>
+</main>
