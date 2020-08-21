@@ -21,3 +21,8 @@
   height: 50px;
   border-radius: 50%;
 }
+
+.header-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}

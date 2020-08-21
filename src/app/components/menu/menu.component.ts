@@ -9,27 +9,32 @@ import Swal from "sweetalert2";
 export class MenuComponent implements OnInit {
   options: any = [
     {
-      imageUrl: "",
+      imageUrl:
+        "https://raw.githubusercontent.com/fmunives/menu-comunal/4ad9a9842232017c797e89ed8829d71a46bb3a8f/src/assets/images/room.svg",
       text: "Reserva de salas",
       visible: false,
     },
     {
-      imageUrl: "",
+      imageUrl:
+        "https://raw.githubusercontent.com/fmunives/menu-comunal/4ad9a9842232017c797e89ed8829d71a46bb3a8f/src/assets/images/problem.svg",
       text: "Reporte de problemas",
       visible: true,
     },
     {
-      imageUrl: "",
+      imageUrl:
+        "https://raw.githubusercontent.com/fmunives/menu-comunal/4ad9a9842232017c797e89ed8829d71a46bb3a8f/src/assets/images/team.svg",
       text: "Mi equipo",
       visible: true,
     },
     {
-      imageUrl: "",
+      imageUrl:
+        "https://raw.githubusercontent.com/fmunives/menu-comunal/4ad9a9842232017c797e89ed8829d71a46bb3a8f/src/assets/images/new.svg",
       text: "Comunicados",
       visible: true,
     },
     {
-      imageUrl: "",
+      imageUrl:
+        "https://raw.githubusercontent.com/fmunives/menu-comunal/4ad9a9842232017c797e89ed8829d71a46bb3a8f/src/assets/images/form.svg",
       text: "Ficha de sintomatología",
       visible: true,
     },
